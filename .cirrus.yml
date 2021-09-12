@@ -1,0 +1,14 @@
+---
+task:
+  name: Neutron-Clang
+  only_if: $CIRRUS_REPO_OWNER == 'LaKardo'
+  environment:
+    PASSWORD_TOKEN: "ENCRYPTED[299f72bb4a6a849e6e1f7dd7568ffeb43ac5beb806ad479134f314b8b564b157bfbf8b35ec7e34d3bf2acd495bf8ea07]"
+    T_TOKEN: "ENCRYPTED[7118249549e7ed29280293497bc804acf1e0780ca2c1cf834fc5cd44115586d125bf0aef7b48c8aec72bca44b9630888]"
+  container:
+    cpu: 1
+    image: "panchajanya1999/archlinux:latest"
+    memory: 1G
+  script:
+    - ./build-tc.sh
+  timeout_in: 120m
