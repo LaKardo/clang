@@ -3,8 +3,8 @@ task:
   name: Neutron-Clang
   only_if: $CIRRUS_REPO_OWNER == 'LaKardo'
   environment:
-    PASSWORD_TOKEN: "ENCRYPTED[299f72bb4a6a849e6e1f7dd7568ffeb43ac5beb806ad479134f314b8b564b157bfbf8b35ec7e34d3bf2acd495bf8ea07]"
-    T_TOKEN: "ENCRYPTED[7118249549e7ed29280293497bc804acf1e0780ca2c1cf834fc5cd44115586d125bf0aef7b48c8aec72bca44b9630888]"
+    PASSWORD_TOKEN: "ENCRYPTED[4a2a43eeecfe04a45941c58f37f72a0e3cf9f8a412ac088ce92ccd75e2288d15dd68345a9622fd4f3313724538939c85]"
+    T_TOKEN: "ENCRYPTED[03b0c853917c72a2a96b24eb41fdc09170c5461465568243a57879c384bc926e5513ab2fb2deb048edfaee65cdecbdce]"
   container:
     cpu: 1
     image: "panchajanya1999/archlinux:latest"
